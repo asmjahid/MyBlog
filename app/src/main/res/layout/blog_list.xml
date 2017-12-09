@@ -15,14 +15,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            app:srcCompat="@mipmap/add_btn" />
+            app:srcCompat="@mipmap/add_btn"
+            android:contentDescription="@string/blog_image" />
 
         <TextView
             android:id="@+id/post_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:text="Post Title"
+            android:text="@string/post_title"
             android:textStyle="bold" />
 
         <TextView
@@ -30,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="35dp"
-            android:text="Post Description" />
+            android:text="@string/post_description" />
 
     </LinearLayout>
 

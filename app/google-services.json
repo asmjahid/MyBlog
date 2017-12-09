@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "626606095882-tsvhkee8485uldo7pl25vcmg2n498lce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmjahid.myblog",
+            "certificate_hash": "9c9282654af9d8045739f1c96c5c3dbafa5da38f"
+          }
+        },
+        {
           "client_id": "626606095882-ub40tt6q77gar2jq3seba3uuvn36a1ji.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626606095882-ub40tt6q77gar2jq3seba3uuvn36a1ji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

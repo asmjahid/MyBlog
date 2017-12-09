@@ -98,7 +98,7 @@ public class PostActivity extends AppCompatActivity {
             });
         }
         else {
-            Toast.makeText(PostActivity.this, "Fill the field",
+            Toast.makeText(PostActivity.this, "Fill all the field",
                     Toast.LENGTH_LONG).show();
         }
     }
