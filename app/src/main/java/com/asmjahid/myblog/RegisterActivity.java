@@ -81,7 +81,7 @@ public class RegisterActivity extends AppCompatActivity {
                         startActivity(intent);
                     } else {
                         //FirebaseAuthException e = (FirebaseAuthException )task.getException();
-                        Toast.makeText(RegisterActivity.this, "Failed Registration: "/*+e.getMessage()*/, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisterActivity.this, "Registration error "/*+e.getMessage()*/, Toast.LENGTH_SHORT).show();
                         mProgress.hide();
                         return;
                     }
