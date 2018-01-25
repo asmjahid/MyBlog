@@ -1,4 +1,4 @@
-package com.asmjahid.myblog;
+package com.asmjahid.myblog.model;
 
 /**
  * Created by asmjahid on 03-Dec-17.
